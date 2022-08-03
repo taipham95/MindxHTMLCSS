@@ -1,0 +1,152 @@
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6eaf8;
+    padding: 0;
+    margin: 0;
+    font-family: 'Merriweather';
+    font-style: normal;
+}
+
+.container__app {
+    display: block;
+    position: relative;
+    background-color: #fff;
+    width: 1213px;
+    height: 830px;
+    margin: auto;
+    border-radius: 20px;
+
+}
+.container__app-ui {
+    margin: 100px;
+}
+.header__name {
+    display: block;
+    position: absolute;
+    margin-top: 30px;
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.header__list {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__flex{
+    list-style: none;
+    margin-top: 150px;
+}
+
+.header__list-search {
+    position: absolute;
+    font-size: 20px;
+    left: -25px;
+    font-weight: 500;
+    color: black;
+}
+
+.header_icon {
+    display: block;
+    position: relative;
+    left: 40px;
+}
+
+.header__search{
+    border-radius: 4px;
+    border: 1px solid #516FD5;
+    width: 200px;
+    height: 50px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.header__list-item-user{
+   text-decoration: none;
+   padding: 0 20px 0 20px;
+   font-size: 20px;
+   font-weight: bolder;
+   color: black;
+}
+
+
+.header_btn {
+    background-color: #849fff;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: white;
+}
+
+.if_user {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 10px;
+    width: 100%;
+    max-width: 1100px;
+    height: 550px;
+    margin: 70px 0 10px 0;
+}
+
+.if_user-list {
+    display: flex;
+    list-style: none;
+    background-color: #e6eaf8;
+    border-radius: 20px;
+}
+
+.if_user-list-border {
+    border: 1px solid #516FD5;
+    box-shadow: 5px 5px 5px #e6eaf8;
+}
+
+.if_user-avatar {
+    display: block;
+    position: relative;
+    margin-left: -20px;
+    margin-top: 15px;
+    border-radius: 100%;
+    background-size: contain;
+    background-position: top center;
+    width: 100px;
+    height: 100px;
+}
+
+.if__user-css {
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.if_user-name {
+    font-size: 23px;
+    line-height: 23px;
+    margin: 10px 0;
+}
+.if_user-comments {
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.if_user-favorite {
+    display: inline-block;
+    color: #516FD5;
+    background-color: white;
+    border: 1px solid #516FD5;
+    border-radius: 8px;
+    padding: 4px;
+    margin-top: 5px;
+}
